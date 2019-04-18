@@ -1,0 +1,1 @@
+timespeed = lerp(timespeed, slowTime, lerpV)
