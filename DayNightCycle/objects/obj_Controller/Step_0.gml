@@ -4,4 +4,4 @@ if(!keyboard_check(vk_left)&&!keyboard_check(vk_right))
 }
 
 
-TOD = (TOD+timeSpeed)%24000
+TOD = (TOD+timeSpeed)%(planetCycle)

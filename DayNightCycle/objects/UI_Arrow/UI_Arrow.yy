@@ -1,19 +1,10 @@
 {
-    "id": "4356674b-3cad-4a98-8596-0c52eb5b070b",
+    "id": "31a80d72-ed80-4d67-b825-a6f62048b449",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Moon",
+    "name": "UI_Arrow",
     "eventList": [
-        {
-            "id": "497c3b87-b0c2-4b1e-a91f-b74a85623e25",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4356674b-3cad-4a98-8596-0c52eb5b070b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1015ffd4-8abf-4695-a2b6-76a9df5e36dc",
+    "spriteId": "1f2abf2b-3657-4646-9f00-980229af2a7d",
     "visible": true
 }
