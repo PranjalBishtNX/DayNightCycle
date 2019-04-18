@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1F5F8556
-/// @DnDArgument : "code" "timeSpeed = 1$(13_10)slowTime = 0.5$(13_10)fastTime = 2$(13_10)lerpV = 0.2$(13_10)$(13_10)planetSpeed$(13_10)radius = 512$(13_10)TOD = 0$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "timeSpeed = 1$(13_10)slowTime = 0.5$(13_10)fastTime = 2$(13_10)lerpV = 0.2$(13_10)$(13_10)planetCycle = 100  //time to complete 1 day$(13_10)radius = 700$(13_10)TOD = 0$(13_10)$(13_10)$(13_10)"
 timeSpeed = 1
 slowTime = 0.5
 fastTime = 2
 lerpV = 0.2
 
-planetSpeed
-radius = 512
+planetCycle = 100  //time to complete 1 day
+radius = 700
 TOD = 0
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
