@@ -71,10 +71,34 @@
             }
         },
         {
+            "Key": "20a70170-b749-414a-ae11-222d9f4eac0d",
+            "Value": {
+                "id": "6ef34bbf-c72b-4ff5-ae07-bb5f4e3d0514",
+                "resourcePath": "sprites\\spr_MainTimeLine\\spr_MainTimeLine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2809712c-12cb-4c99-8fc9-bb80814da5cf",
             "Value": {
                 "id": "7ff45168-64c6-4963-ac16-518b4cbbc34d",
                 "resourcePath": "objects\\obj_Planet\\obj_Planet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2ec06f96-c32f-45d1-b0bb-5f06e2222374",
+            "Value": {
+                "id": "f216dfd1-da91-44af-bc88-c3cda603564e",
+                "resourcePath": "sprites\\spr_TimeArrow\\spr_TimeArrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "307ff057-3a55-4529-93f7-9eab94240468",
+            "Value": {
+                "id": "3a68cd0b-f945-45b2-bd11-fab2bcf0d22e",
+                "resourcePath": "objects\\UI_TimeLine\\UI_TimeLine.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -148,6 +172,14 @@
                 "id": "113f1580-e9d7-4355-acda-b5652bc4a87a",
                 "resourcePath": "views\\97083691-bfa4-4a85-a58a-3c45b6e74a23.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a28db1bd-f2fb-4813-8722-256afc5433d8",
+            "Value": {
+                "id": "3c52d597-aa01-4986-8d92-3740d71eee15",
+                "resourcePath": "objects\\obj_ActualTimeArrow\\obj_ActualTimeArrow.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,26 +1,25 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 1F5F8556
-/// @DnDArgument : "code" "timeSpeed = 1$(13_10)slowTime = 0.5$(13_10)fastTime = 2$(13_10)lerpV = 0.2$(13_10)$(13_10)planetCycle = 500  //time to complete 1 day$(13_10)radius = 700$(13_10)TOD = 0$(13_10)$(13_10)$(13_10)"
-timeSpeed = 1
-slowTime = 0.5
-fastTime = 2
-lerpV = 0.2
+//all values here are set at the beginning of the game
 
-planetCycle = 500  //time to complete 1 day
-radius = 700
-TOD = 0
+actualSpeed = 1
+timeSpeed = actualSpeed    //normal time speed
+slowTime = 0.5	// slower time speed, 0.5 = half
+fastTime = 2	//fast time speed
+lerpV = 0.05   //Acceletation b/w timespeeds when changing, DO NOT put more than 0.5 here
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 4FD57023
-/// @DnDArgument : "objectid" "obj_Sun"
-/// @DnDSaveInfo : "objectid" "d90df9e8-2b03-4dba-ba0c-1d1830e7df46"
-instance_create_layer(0, 0, "Instances", obj_Sun);
+planetCycle = 1000  //time to complete 1 day
+radius = 750
+TOD = 0			//time of day
+TODa = 0        //actual time of day you're supposed to match
+day = 0			//days spent
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 02EB957E
-/// @DnDArgument : "objectid" "obj_Moon"
-/// @DnDSaveInfo : "objectid" "4356674b-3cad-4a98-8596-0c52eb5b070b"
-instance_create_layer(0, 0, "Instances", obj_Moon);
+susQ = 0  //suspicion quotient :v
+susDec = 1 //value to decrease susQ when idle
+susInc = 1 //value to increase susQ when messing with time
+
+instance_create_layer(0, 0, "Instances", obj_Sun)  //create the sun and moon
+instance_create_layer(0, 0, "Instances", obj_Moon)
+
+n = ceil(room_width/32)
+for(i=0; i<n; i++)
+	instance_create_layer(32*i, 0, "UI",UI_TimeLine)
+

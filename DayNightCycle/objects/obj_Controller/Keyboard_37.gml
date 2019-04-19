@@ -1,1 +1,2 @@
-timespeed = lerp(timespeed, slowTime, lerpV)
+timeSpeed = lerp(timeSpeed, slowTime, lerpV)
+susQ += susInc

@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_Sun",
     "eventList": [
-        {
-            "id": "57df38d1-a505-4ad1-b383-ee1129943f6c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "d90df9e8-2b03-4dba-ba0c-1d1830e7df46"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
