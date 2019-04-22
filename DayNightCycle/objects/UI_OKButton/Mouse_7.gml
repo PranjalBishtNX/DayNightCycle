@@ -13,3 +13,9 @@ image_yscale = 1.1;
 with(obj_Controller) {
 event_user(0);
 }
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3C5CFDDB
+/// @DnDArgument : "steps" "1"
+alarm_set(0, 1);

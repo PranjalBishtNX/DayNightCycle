@@ -6,6 +6,7 @@ switch(mode){
 		//reset pointer to 0
 		newx = obj_Planet.x - radius 
 		obj_ActualTimeArrow.x = lerp(obj_ActualTimeArrow.x, newx, 0.1)  
+		UI_OKButton.visible = true;
 	break;
 	case 2:  //gameplay
 		if(!keyboard_check(vk_left)&&!keyboard_check(vk_right))  //if L/R keys are not pressed
@@ -20,7 +21,8 @@ switch(mode){
 			show_message(m)
 			TODa = 0
 			TOD = 0
-			mode = 3 //go to day ended
+			mode = 3 //go to day end mode
+			UI_OKButton.visible = true;
 			}
 
 
@@ -54,6 +56,7 @@ switch(mode){
 		//reset pointer to 0
 		newx = obj_Planet.x - radius 
 		obj_ActualTimeArrow.x = lerp(obj_ActualTimeArrow.x, newx, 0.1)  
+		
 	break;
 	
 }
