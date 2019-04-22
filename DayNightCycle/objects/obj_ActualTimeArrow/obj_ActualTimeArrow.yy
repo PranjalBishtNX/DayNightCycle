@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_ActualTimeArrow",
     "eventList": [
-        {
-            "id": "52fe265c-5c0c-4c11-b1ad-d97026f9e630",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a28db1bd-f2fb-4813-8722-256afc5433d8"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

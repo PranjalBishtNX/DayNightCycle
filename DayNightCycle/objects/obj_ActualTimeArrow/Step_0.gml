@@ -1,1 +1,0 @@
-x=(obj_Controller.TODa/obj_Controller.planetCycle * room_width * 2) % room_width

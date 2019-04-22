@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ff2e82f-cce7-4ea3-b910-b50c7ccd8737",
+            "Value": {
+                "id": "fdb38918-fec6-46b4-a13f-5ad683768873",
+                "resourcePath": "sprites\\spr_UI_DayStart\\spr_UI_DayStart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1015ffd4-8abf-4695-a2b6-76a9df5e36dc",
             "Value": {
                 "id": "98e221f3-3414-48a2-a195-137232a428eb",
@@ -75,6 +83,14 @@
             "Value": {
                 "id": "6ef34bbf-c72b-4ff5-ae07-bb5f4e3d0514",
                 "resourcePath": "sprites\\spr_MainTimeLine\\spr_MainTimeLine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23aa2b06-c881-4581-b8c1-d206251151f6",
+            "Value": {
+                "id": "bd5a588d-ab82-499f-b41c-4e2ac50b9d2a",
+                "resourcePath": "sprites\\spr_UI_OKButton\\spr_UI_OKButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -268,6 +284,14 @@
                 "id": "29d70ed9-d18c-4caa-bc6a-0d32f41e586f",
                 "resourcePath": "views\\d0da9da0-7120-480c-a4a4-f40589db74c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d458c706-600e-463b-9ea3-fa36977db549",
+            "Value": {
+                "id": "38ff5981-bec3-4aef-a608-f746fca15ba5",
+                "resourcePath": "objects\\UI_OKButton\\UI_OKButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
