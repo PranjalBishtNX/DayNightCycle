@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "29015777-a476-4121-8db9-2fc9e9565b7a",
+            "Value": {
+                "id": "06476d31-a74d-45f6-9eb3-91f89ab8fb7f",
+                "resourcePath": "sprites\\spr_Asteroid\\spr_Asteroid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ec06f96-c32f-45d1-b0bb-5f06e2222374",
             "Value": {
                 "id": "f216dfd1-da91-44af-bc88-c3cda603564e",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "626f89fc-63f7-4b6b-b390-f202ad6b738c",
+            "Value": {
+                "id": "533eaa18-87d1-4d56-9655-debc17662dff",
+                "resourcePath": "sprites\\spr_Bullet\\spr_Bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66559300-511b-45d1-9840-1f5dd9acabdf",
             "Value": {
                 "id": "e037fb00-79a1-4df4-9eba-088b3abef860",
@@ -159,11 +175,35 @@
             }
         },
         {
+            "Key": "6efbb78a-7696-4f51-adb0-a37b2c86e350",
+            "Value": {
+                "id": "b809ac7e-8acc-4030-938d-54901d2e7d3a",
+                "resourcePath": "objects\\obj_WaveController\\obj_WaveController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73e31bfd-838d-4d23-ab89-95664958ec5b",
             "Value": {
                 "id": "625499c5-42a2-402f-9b7b-3162eadbccc2",
                 "resourcePath": "views\\73e31bfd-838d-4d23-ab89-95664958ec5b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "81e6e497-bf4f-4a04-831e-e1b2c48c8ede",
+            "Value": {
+                "id": "2440c0af-700a-41a6-ab64-0712655071fd",
+                "resourcePath": "objects\\obj_Asteroid\\obj_Asteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "86491f58-5220-4494-b554-5010f481fa00",
+            "Value": {
+                "id": "eef6f96c-b8a4-48c8-8500-39ec677c82d6",
+                "resourcePath": "objects\\obj_Bullet\\obj_Bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
